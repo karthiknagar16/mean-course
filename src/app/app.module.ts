@@ -6,10 +6,12 @@ import { MatInputModule, MatCardModule, MatButtonModule} from '@angular/material
 
 import { AppComponent } from './app.component';
 import { PostCreateComponent } from './posts/post-create/post-create.component';
+import { PostListComponent } from './post-list/post-list.component';
 @NgModule({
   declarations: [
     AppComponent,
-    PostCreateComponent
+    PostCreateComponent,
+    PostListComponent
   ],
   imports: [
     BrowserModule,
